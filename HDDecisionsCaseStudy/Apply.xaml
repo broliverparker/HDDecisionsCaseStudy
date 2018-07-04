@@ -5,13 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HDDecisionsCaseStudy"
         mc:Ignorable="d"
-        Title="Apply" Height="500.2" Width="367.2">
-    <Grid Margin="0,0,3.8,-10.6">
+        Title="Apply" Height="510.48" Width="280.495">
+    <Grid Margin="0,0,84.8,3.4">
         <TextBox Name="txt_FirstName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="49,45,0,0"/>
         <TextBox Name="txt_LastName" HorizontalAlignment="Left" Height="23" Margin="49,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Calendar Name="calendar_DOB" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,163,0,0"/>
-        <TextBox Name="txt_Income" HorizontalAlignment="Left" Height="23" Margin="49,386,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Calendar Name="calendar_DOB" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,163,-65.2,0" Height="166" Width="193"/>
+        <TextBox Name="txt_Income" HorizontalAlignment="Left" Height="23" Margin="49,365,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
         <Button Name="btn_submitApplication" Content="Apply" HorizontalAlignment="Left" Margin="49,435,0,0" VerticalAlignment="Top" Width="75" Click="btn_submitApplication_Click"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="49,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="49,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date of Birth" HorizontalAlignment="Left" Margin="49,132,0,0" VerticalAlignment="Top"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="49,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Income" HorizontalAlignment="Left" Margin="47,334,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

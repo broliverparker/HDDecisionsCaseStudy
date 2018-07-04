@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="VanquisResult" Height="450" Width="800">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="300" Margin="173,59,0,0" VerticalAlignment="Top" Width="450
-" Source="Vanquis-Credit-Card.jpg"/>
+        <Image HorizontalAlignment="Left" Height="285" Margin="173,74,0,0" VerticalAlignment="Top" Width="432" Source="Vanquis-Credit-Card.jpg"/>
         <Button Name="btn_decline" Content="Decline" HorizontalAlignment="Left" Margin="521,364,0,0" VerticalAlignment="Top" Width="102" Height="34" Click="btn_decline_Click"/>
         <Button Name="btn_accept" Content="Accept" HorizontalAlignment="Left" Margin="173,364,0,0" VerticalAlignment="Top" Width="102" Height="34" Click="btn_accept_Click"/>
+        <Label Content="This card has 15% APR." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315,11,0,0"/>
+        <Label Content="Each card comes with a years subscription of Spotify for free" HorizontalAlignment="Left" Margin="169,37,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>
 </Window>

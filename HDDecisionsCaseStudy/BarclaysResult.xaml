@@ -10,6 +10,8 @@
         <Image HorizontalAlignment="Left" Height="300" Margin="180,80,0,0" VerticalAlignment="Top" Width="450" Source="barclays-bank_card.jpg"/>
         <Button Name="btn_decline" Content="Decline" HorizontalAlignment="Left" Margin="528,376,0,0" VerticalAlignment="Top" Width="102" Height="34" Click="btn_decline_Click"/>
         <Button x:Name="btn_Accept" Content="Accept" HorizontalAlignment="Left" Margin="180,376,0,0" VerticalAlignment="Top" Width="102" Height="34" Click="btn_Accept_Click"/>
+        <Label Content="This card has 19.9% APR." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="318,22,0,0"/>
+        <Label Content="Each card comes with a years subscription of Netflix for free" HorizontalAlignment="Left" Margin="200,48,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>
 </Window>
