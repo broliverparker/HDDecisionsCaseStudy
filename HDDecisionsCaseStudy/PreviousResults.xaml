@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HDDecisionsCaseStudy"
         mc:Ignorable="d"
-        Title="PreviousResults" Height="521.222" Width="442.266">
+        Title="PreviousResults" Height="487.622" Width="288.666">
     <Grid Margin="0,0,283.6,-256">
-        <DataGrid Name="grid_results" ItemsSource="{Binding ResultsGrid}" HorizontalAlignment="Left" Height="396" Margin="46,57,-237.4,0" VerticalAlignment="Top" Width="339"/>
+        <DataGrid Name="grid_results" ItemsSource="{Binding ResultsGrid}" HorizontalAlignment="Left" Height="371" Margin="38,63,-253,0" VerticalAlignment="Top" Width="215"/>
 
     </Grid>
 </Window>
